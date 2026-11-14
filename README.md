@@ -8,7 +8,7 @@ with, sponsored by, endorsed by or promoted by Johnson Controls International pl
 a registered trademark of Johnson Controls; all other trademarks belong to their owners. This software is not a JCI
 product, is not supported by JCI, and has no ties to JCI. It interacts with Metasys only through its published API.
 
-- **Download:** the latest version is on the [Releases page](https://github.com/LarLTU/WeatherBridgeForMetasys-releases/releases/latest).
+- **Download:** the latest version is on the [Releases page](https://github.com/DLL-Digital/WeatherBridgeForMetasys-releases/releases/latest).
   Each release has the installer, `MetasysWeatherBridge-x.y.z.msi`, its SHA-256 checksum,
   `MetasysWeatherBridge-x.y.z.msi.sha256`, and the release notes.
 - **Install or upgrade:** run the MSI as an administrator on the server. To upgrade, run the newer MSI over the
@@ -20,13 +20,14 @@ product, is not supported by JCI, and has no ties to JCI. It interacts with Meta
   ```
 
 - **Hear about new versions:** in the bridge, **Settings → General & backup → Updates → Check for new versions**
-  reads the latest release from this repository (1.7.6 and later).
+  reads the latest release from this repository (1.7.6 and later; a site on 1.8.0 must install 1.8.1 by hand once, after
+  the move from github.com/LarLTU to DLL-Digital).
 
 Releases are published here automatically when a version is released.
 
 ## License and notices
 
-Weather Bridge for Metasys is proprietary software, © 2026 Larry Sinkevicius, all rights reserved. Installing,
+Weather Bridge for Metasys is proprietary software, © 2026 DLL Technologies LLC (DLL Digital), all rights reserved. Installing,
 copying or using it is subject to the [license agreement](LICENSE), which the installer (1.7.7 and later) also
 shows. Only the released installers are licensed for use; nothing here grants a right to redistribute them. The
 open-source components the program includes, and the terms of the weather data sources it uses (OpenWeather,
