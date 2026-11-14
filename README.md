@@ -1,4 +1,4 @@
-# Weather Bridge for Metasys
+# <img src="images/icon.svg" width="40" height="40" align="center" alt=""> Weather Bridge for Metasys
 
 **Live outdoor weather and forecasts as Metasys points.** Weather Bridge for Metasys reads current conditions and the
 forecast from [OpenWeather](https://openweathermap.org/) and writes them to points in a Johnson Controls Metasys 16
